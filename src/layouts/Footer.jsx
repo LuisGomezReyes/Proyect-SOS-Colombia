@@ -70,7 +70,7 @@ const Footer = () => (
           <IconTikTok link="#" />
           <IconYouTube link="#" />
           <IconFacebook link="#" />
-          <IconTwitter link="#" />
+          <IconTwitter link="https://twitter.com/EmanuelZM_0220?ref_src=twsrc%5Etfw" />
         </Icons>
 
         <Flaticon>

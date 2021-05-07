@@ -18,7 +18,8 @@ const Nav = styled.nav`
   justify-content: flex-end;
   font-family: ${props => props.theme.fontFamily.body};
   font-weight: 500;
-
+ 
+}
   font-size: 1.1rem;
   align-items: center;
   a {
@@ -41,6 +42,8 @@ const NavBar = () => (
       <Link to="/">Inicio</Link>
       <Link to="/blog">Blog</Link>
       <Link to="/banderas">Banderas</Link>
+      <Link to="/actividades">Actividades</Link>
+      <Link to="/propuestas">Propuestas</Link>
     </Nav>
   </Headroom>
 );

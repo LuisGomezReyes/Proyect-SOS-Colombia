@@ -42,8 +42,8 @@
     "gatsby-remark-images": "^3.11.1",
     "gatsby-remark-images-contentful": "^4.1.0",
     "gatsby-remark-prismjs": "^3.13.0",
-    
     "gatsby-source-filesystem": "^2.11.1",
+    "gatsby-source-instagram": "^0.9.0",
     "gatsby-transformer-remark": "^2.16.1",
     "gatsby-transformer-sharp": "^2.12.1",
     "gatsby-transformer-sqip": "^3.4.1",

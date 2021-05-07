@@ -5,7 +5,7 @@ import Helmet from 'react-helmet';
 import styled from '@emotion/styled';
 import { Header, PostList } from 'components';
 import { Layout } from 'layouts';
-
+import { Link } from 'gatsby';
 const PostWrapper = styled.div`
   display: flex;
   flex-direction: row;
@@ -20,13 +20,18 @@ const PostWrapper = styled.div`
   }
 `;
 
-const RedesSociales = styled.div`
+
+
+const Titulo = styled.div`
 
   text-align: center;
   left: 50%;
   color:  #ff0000;
- 
+  padding-top:1rem;
 `;
+
+
+
 
 
 
@@ -40,6 +45,22 @@ const Index = ({ data }) => {
         Este es tu espacio para conocer toda la información acerca del paro
         Nacional del año 2021
       </Header>
+ <Titulo><h2>Newsletter</h2> </Titulo>    
+<form method="post" action="https://getform.io/f/e8fb3d9f-234e-4a26-901c-4dd1393d7a66">
+  <label>
+    Nombre
+    <input type="text" name="name" id="name" />
+  </label>
+  <input type="hidden" name="subject" id="subject" value="newsletter"/>
+  <label>
+    Email
+    <input type="email" name="email" id="email" />
+  </label>
+  
+  
+  <button type="submit">Send</button>
+  
+</form>
       <PostWrapper>
         {edges.map(({ node }) => {
           const { id, excerpt, frontmatter } = node;
@@ -56,7 +77,10 @@ const Index = ({ data }) => {
           );
         })}
       </PostWrapper>
-        <RedesSociales><h2>Esto es una prueba</h2></RedesSociales>
+        <Titulo><h2>Últimas Publicaciones</h2></Titulo>
+
+        <Titulo><Link to="tags"> <button type="button">All Tags</button></Link></Titulo>
+       
     </Layout>
   );
 };
