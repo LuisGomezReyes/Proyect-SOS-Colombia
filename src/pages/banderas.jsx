@@ -6,8 +6,8 @@ import { Layout, Container } from 'layouts';
 
 const About = center => (
   <Layout>
-    <Helmet title={'Acerca de Nosotros'} />
-    <Header title="Acerca de Nosotros">Acerca de quienes somos nosotros</Header>
+    <Helmet title={'Banderas'} />
+    <Header title="Banderas">Los principos por lo cuales luchamos</Header>
     <Container center={center}>
       <h3>
         If you would like to build this site completely from scratch, you can

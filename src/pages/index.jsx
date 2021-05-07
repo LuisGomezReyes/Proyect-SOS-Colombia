@@ -20,13 +20,24 @@ const PostWrapper = styled.div`
   }
 `;
 
+const RedesSociales = styled.div`
+
+  text-align: center;
+  left: 50%;
+  color:  #ff0000;
+ 
+`;
+
+
+
+
 const Index = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
   return (
     <Layout>
       <Helmet title={'SOS Colombia'} />
       <Header title="SOS Colombia">
-        Este es tu espacio apra conocer toda la información acerca del paro
+        Este es tu espacio para conocer toda la información acerca del paro
         Nacional del año 2021
       </Header>
       <PostWrapper>
@@ -45,6 +56,7 @@ const Index = ({ data }) => {
           );
         })}
       </PostWrapper>
+        <RedesSociales><h2>Esto es una prueba</h2></RedesSociales>
     </Layout>
   );
 };

@@ -40,7 +40,7 @@ const NavBar = () => (
     <Nav>
       <Link to="/">Inicio</Link>
       <Link to="/blog">Blog</Link>
-      <Link to="/about">Nosotros</Link>
+      <Link to="/banderas">Banderas</Link>
     </Nav>
   </Headroom>
 );
