@@ -30,7 +30,40 @@ const Titulo = styled.div`
   padding-top:1rem;
 `;
 
+const estilosform = styled.div`
+form {
+  background-color: #fff;
+  color: #ff0000;
+  width: 50%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  border-radius: 6px;
+  box-shadow: 2px 2px 10px #666;
+  margin: 5px;
+  padding: 5px;
+}
 
+.form button {
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+  box-shadow: 2px 2px 10px #666;
+}
+
+.form input {
+  padding: 5px;
+  border-radius: 5px;
+  border: #9b9b9b solid;
+}
+
+
+
+`;
 
 
 
@@ -45,22 +78,26 @@ const Index = ({ data }) => {
         Este es tu espacio para conocer toda la información acerca del paro
         Nacional del año 2021
       </Header>
- <Titulo><h2>Newsletter</h2> </Titulo>    
+ <Titulo><h2>Newsletter</h2> </Titulo>
+ <estilosform>
+<div class="form">
 <form method="post" action="https://getform.io/f/e8fb3d9f-234e-4a26-901c-4dd1393d7a66">
   <label>
     Nombre
-    <input type="text" name="name" id="name" />
+    <input type="text" name="name" id="name" placeholder="Nombre Completo"/>
   </label>
   <input type="hidden" name="subject" id="subject" value="newsletter"/>
   <label>
     Email
-    <input type="email" name="email" id="email" />
+    <input type="email" name="email" id="email" placeholder="Correo Electronico"/>
   </label>
   
   
   <button type="submit">Send</button>
   
 </form>
+</div>
+ </estilosform>
       <PostWrapper>
         {edges.map(({ node }) => {
           const { id, excerpt, frontmatter } = node;

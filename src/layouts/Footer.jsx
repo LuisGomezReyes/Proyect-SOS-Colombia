@@ -26,7 +26,7 @@ const Text = styled.div`
   text-align: center;
   color: ${props => props.theme.colors.white.light};
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   --tw-divide-x-reverse: 0;
   border-right-width: calc(1px * var(--tw-divide-x-reverse));
   border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
@@ -36,9 +36,11 @@ const Text = styled.div`
     border-bottom-left-radius: 1rem;
   }
 `;
-
+const T = styled.p`
+  font-size: 10px;
+`;
 const P = styled.p`
-  text-align: justify;
+  text-align: center;
   font-size: 1.25rem;
   line-height: 1.75rem;
 `;
@@ -56,9 +58,24 @@ const Icons = styled.div`
 
 const Copyright= styled.div`
   display: flex;
-  align-content: flex-end;
-  flex-wrap: wrap;
+  text-align: center;
+  position: absolute;
+  left: 30%;
+  top:75%;
+  @media(max-width: 700px){
+    left:0%;
+    top: 0%;
+    position:relative;
+  }
 `;
+
+ /*<IconTikTok link="#" />
+          <IconYouTube link="#" />
+          <IconFacebook link="#" />
+          <IconTwitter link="#" /> */
+
+
+
 
 const Footer = () => (
   <Wrapper>
@@ -66,23 +83,10 @@ const Footer = () => (
       <div>
         <P>Siguenos en redes sociales.</P>
         <Icons>
-          <IconInstagram link="#" />
-          <IconTikTok link="#" />
-          <IconYouTube link="#" />
-          <IconFacebook link="#" />
-          <IconTwitter link="https://twitter.com/EmanuelZM_0220?ref_src=twsrc%5Etfw" />
+          <IconInstagram link="https://www.instagram.com/cocrearcolombia_un/" />
+         
         </Icons>
-
-        <Flaticon>
-          Iconos diseñados por
-          <a href="https://www.flaticon.es/autores/freepik" title="Freepik">
-            Freepik
-          </a>
-          from
-          <a href="https://www.flaticon.es/" title="Flaticon">
-            www.flaticon.es
-          </a>
-        </Flaticon>
+        <div><T>Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></T></div>
       </div>
       <div>
         <div>

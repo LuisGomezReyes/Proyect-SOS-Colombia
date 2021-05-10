@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 
-const IconYouTube = ({ link, margin }) => {
+const IconInstagram = ({ link, margin }) => {
   return (
     <a
       href={link}
@@ -10,9 +10,9 @@ const IconYouTube = ({ link, margin }) => {
       rel="noopener noreferrer"
     >
       <svg
-        height="30pt"
+        height="40pt"
         viewBox="0 0 512 512"
-        width="30pt"
+        width="40pt"
         xmlns="http://www.w3.org/2000/svg"
       >
         <linearGradient
@@ -76,7 +76,7 @@ const IconYouTube = ({ link, margin }) => {
         18.316407 19.148438 29.4375 3.507812 9.019531 7.679688 22.574219 8.816406 47.535157 1.230469 
         26.992187 1.492188 35.089843 1.492188 103.445312 0 68.359375-.257813 76.453125-1.492188 
         103.449219zm0 0"
-          fill="url(#a)"
+          fill="000000"
         />
         <path
           d="m255.996094 124.539062c-72.601563 0-131.457032 
@@ -85,17 +85,17 @@ const IconYouTube = ({ link, margin }) => {
         216.792969c-47.125-.003906-85.332032-38.207031-85.328125-85.335937 0-47.125 38.203125-85.332032 
         85.332031-85.332032 47.128906.003907 85.332031 38.207032 85.332031 85.332032 0 
         47.128906-38.207031 85.335937-85.335937 85.335937zm0 0"
-          fill="url(#b)"
+          fill="ffffff"
         />
         <path
           d="m423.371094 119.347656c0 16.964844-13.753906 30.71875-30.71875 
         30.71875-16.96875 0-30.722656-13.753906-30.722656-30.71875 0-16.96875 13.753906-30.722656 
         30.722656-30.722656 16.964844 0 30.71875 13.753906 30.71875 30.722656zm0 0"
-          fill="url(#c)"
+          fill="fff"
         />
       </svg>
     </a>
   );
 };
 
-export default IconYouTube;
+export default IconInstagram;
