@@ -84,7 +84,7 @@ const Footer = () => (
         <P>Siguenos en redes sociales.</P>
         <Icons>
           <IconInstagram link="https://www.instagram.com/cocrearcolombia_un/" />
-         
+          <IconYouTube link="#" />
         </Icons>
         <div><T>Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></T></div>
       </div>

@@ -80,7 +80,7 @@ const Index = ({ data }) => {
       </Header>
  <Titulo><h2>Newsletter</h2> </Titulo>
  <estilosform>
-<div class="form">
+
 <form method="post" action="https://getform.io/f/e8fb3d9f-234e-4a26-901c-4dd1393d7a66">
   <label>
     Nombre
@@ -96,7 +96,7 @@ const Index = ({ data }) => {
   <button type="submit">Send</button>
   
 </form>
-</div>
+
  </estilosform>
       <PostWrapper>
         {edges.map(({ node }) => {
