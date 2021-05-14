@@ -11,6 +11,9 @@ const StyledLink = styled(Link)`
 `;
 const Imnav= styled.nav`
 filter: drop-shadow(1px 1px 4px #444);
+    @media (max-width: 700px) {
+    display:none;
+  }
 `;
 
 const Nav = styled.nav`
@@ -18,10 +21,14 @@ const Nav = styled.nav`
   justify-content: flex-end;
   font-family: ${props => props.theme.fontFamily.body};
   font-weight: 500;
- 
-}
   font-size: 1.1rem;
   align-items: center;
+  
+    @media (max-width: 700px) {
+    width:100%;
+    
+    
+  }
   a {
     color: ${props => props.theme.colors.white.base};
     margin-left: 2rem;
@@ -30,8 +37,17 @@ const Nav = styled.nav`
     &:hover {
       color: ${props => props.theme.colors.white.grey};
     }
+    @media (max-width: 700px) {
+     margin-left: 0.5rem;
+     padding-bottom: 2rem;
+     font-size: 0.7rem;
+     color: ${props => props.theme.colors.white.nav};
+     
+    
+  }
   }
 `;
+
 
 const NavBar = () => (
   <Headroom calcHeightOnResize disableInlineStyles>

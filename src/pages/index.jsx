@@ -71,6 +71,7 @@ form {
 
 const Index = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
+
   return (
     <Layout>
       <Helmet title={'SOS Colombia'} />
