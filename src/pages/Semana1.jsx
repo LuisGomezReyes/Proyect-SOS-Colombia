@@ -65,9 +65,13 @@ const Semana1 = center => (
      <h3>
      Martes 18 
      <P>
+     <p> <a href="https://www.instagram.com/p/CO_XDWNLIIG1fMB82cQIUbbLz-y-eNzJuYrq1w0/?igshid=gn9xwi05gd6t" target="_blank"> Consulte sobre la marcha en Bogotá aquí </a></p>
+     <p> 8am Encuentro marcha 19M-Parque el Virrey(Bogotá)   </p>
      <p>
-     10-11am <a href="https://www.youtube.com/watch?v=vKtre7TrQBY" target="_blank">Siempre en Paro: Deuda Histórica con los Pueblos Originarios   </a>
+     10am <a href="https://www.youtube.com/watch?v=vKtre7TrQBY" target="_blank">Siempre en Paro: Deuda Histórica con los Pueblos Originarios   </a>
      </p>
+     <p> 11am Encuentro marcha 19M-Estadio Nemesio Camacho el Campín(Bogotá)   </p>
+     <p> 3pm Plaza de Bolivar(Bogotá)   </p>
      </P>
      </h3>
      <h3>
