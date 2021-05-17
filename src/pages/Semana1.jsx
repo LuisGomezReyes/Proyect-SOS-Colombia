@@ -67,11 +67,13 @@ const Semana1 = center => (
      <P>
      <p> <a href="https://www.instagram.com/p/CO_XDWNLIIG1fMB82cQIUbbLz-y-eNzJuYrq1w0/?igshid=gn9xwi05gd6t" target="_blank"> Consulte sobre la marcha en Bogotá aquí </a></p>
      <p> 8am Encuentro marcha 19M-Parque el Virrey(Bogotá)   </p>
+     <p> 9am <a href="https://meet.google.con/vwd-yrwx-nmj" target="_blank"> La policia soberana de Agamben  </a>  </p>
      <p>
      10am <a href="https://www.youtube.com/watch?v=vKtre7TrQBY" target="_blank">Siempre en Paro: Deuda Histórica con los Pueblos Originarios   </a>
      </p>
      <p> 11am Encuentro marcha 19M-Estadio Nemesio Camacho el Campín(Bogotá)   </p>
      <p> 3pm Encuentro marcha 19M-Plaza de Bolivar(Bogotá)   </p>
+     <p> 8pm Nuestras trincheras poéticas-Radio Unal(98.5 FM)  </p>
      </P>
      </h3>
      <h3>
