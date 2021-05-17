@@ -71,7 +71,7 @@ const Semana1 = center => (
      10am <a href="https://www.youtube.com/watch?v=vKtre7TrQBY" target="_blank">Siempre en Paro: Deuda Histórica con los Pueblos Originarios   </a>
      </p>
      <p> 11am Encuentro marcha 19M-Estadio Nemesio Camacho el Campín(Bogotá)   </p>
-     <p> 3pm Plaza de Bolivar(Bogotá)   </p>
+     <p> 3pm Encuentro marcha 19M-Plaza de Bolivar(Bogotá)   </p>
      </P>
      </h3>
      <h3>
