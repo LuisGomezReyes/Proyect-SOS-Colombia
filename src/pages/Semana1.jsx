@@ -66,7 +66,9 @@ const Semana1 = center => (
      Martes 18 
      <P>
      <p> Consulte sobre la marcha en Bogotá<a href="https://www.instagram.com/p/CO_XDWNLIIG1fMB82cQIUbbLz-y-eNzJuYrq1w0/?igshid=gn9xwi05gd6t" target="_blank">  aquí </a> y algo más de informacion <a href="https://docs.google.com/presentation/d/1aJwY7i2PUSYBZoMPNMDSHeeShznitN0i-4gP-zczqfI/edit?usp=sharing" target="_blank">  acá </a> </p>
-     <p> 8am Encuentro marcha 19M-Parque el Virrey(Bogotá)   </p>
+     <p> 4am Madruguele a la cultura campiña-Portal Suba(Bogotá)   </p>
+     <p> 4:30am Tomese un Chocolatito-Portal Suba(Bogotá)   </p>
+      <p> 8am Encuentro marcha 19M-Parque el Virrey(Bogotá)   </p>
      <p> 9am <a href="https://meet.google.con/vwd-yrwx-nmj" target="_blank"> La policia soberana de Agamben  </a>  </p>
      <p>
      10am <a href="https://www.youtube.com/watch?v=vKtre7TrQBY" target="_blank">Siempre en Paro: Deuda Histórica con los Pueblos Originarios   </a>
@@ -76,6 +78,7 @@ const Semana1 = center => (
      <p> 11:30am Conversatorio Movilización Social, Territorio y Raza- Live Feed de Facebook de Ciencias Politicas de la Javeriana   </p>
      <p> 2pm El grito de la selva por Colombia-<a href="https://us02web.zoom.us/webinar/register/WN_8-Qj6C23R3GjCOexWAcNEA?fbclid=IwAR1oaUf6GZn5Ou6RPDANJubdXjpYMWdVJzTyMcou8PGD2qCswrYitNApFxM" target="_blank">  aquí </a>  </p>
      <p> 3pm Encuentro marcha 19M-Plaza de Bolivar(Bogotá)   </p>
+     <p> 3pm A Marchar-Avenida Suba(Bogotá)   </p>
      <p> 6pm Un paro transmitido en vivo ¡Que lo único que disparemos sea una camara!-<a href="https://www.facebook.com/Lasdonasfeministas" target="_blank">  aquí </a>  </p>
      <p> 8pm Nuestras trincheras poéticas-Radio Unal(98.5 FM)  </p>
      </P>
