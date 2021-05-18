@@ -86,8 +86,11 @@ const Semana1 = center => (
      <h3>
      Miercoles 19 
      </h3>
+     <P>
+     <p> 4am Gran Jornada Informativa-Portal Suba(Bogotá)   </p>
+     <p> 10am Caravana Informativa-Colina del Portal Suba (Bogotá)   </p>
 
-
+     </P>
      <h3>
      Jueves 20 
      </h3>
