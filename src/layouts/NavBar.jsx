@@ -11,6 +11,8 @@ const StyledLink = styled(Link)`
 `;
 const Imnav= styled.nav`
 filter: drop-shadow(1px 1px 4px #444);
+  height: 100px;
+  width: 100px;
     @media (max-width: 700px) {
     display:none;
   }
